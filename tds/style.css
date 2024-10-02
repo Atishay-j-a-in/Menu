@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.bo {
+    border: 2px solid black;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(115, 255, 0), rgba(172, 255, 47, 0.688));
+}
+
+.head {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    font-family: cursive;
+    align-items: center;
+    
+}
+
+.head img {
+    padding: 0;
+    margin: 0;
+    width: 100px;
+}
+
+.head h1 {
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+    position: relative;
+}
+nav ul li {
+    padding: 5px;
+    border: 1px solid black;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-left: 600px;
+}
+.menu{
+    border:2px solid black;
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.starters div{
+    position:relative;
+    display: flex;
+}
+.starters img{
+    position:relative;
+    width:200px;
+    border-radius: 300px;
+    left:50px;
+    bottom:30px;
+    border:2px solid green;
+}
+.menu h2{
+    margin:30px 30px;
+}
+.menu h4{
+    margin:15px 30px;
+}
+.starters ul li{
+    padding-top: 15px;
+}
+.appt ul>pre{
+    font-family: serif;
+}
+.form{
+    max-width:80vw;
+    margin: auto;
+}
+.form *{
+    margin:10px;
+}
+.reg{
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 20px 300px;
+}
+.req::after{
+    content: " * ";
+    color: black;
+
+}
